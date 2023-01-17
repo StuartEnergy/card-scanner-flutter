@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () async {
                   scanCard();
                 },
